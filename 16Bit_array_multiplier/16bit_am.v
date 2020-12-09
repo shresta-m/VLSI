@@ -1,4 +1,4 @@
-module array_mult(a , b, p);
+module array_mult(a,b,p);
 input [15:0] a,b;
 output [31:0] p;
 
@@ -319,4 +319,3 @@ output sum , cout;
 assign sum = a^b^cin;
 assign cout = a&b | (a^b)&cin;
 endmodule
-
